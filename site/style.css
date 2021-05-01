@@ -1,7 +1,8 @@
 body{ 
     background-image: url('https://i.pinimg.com/originals/50/15/7f/50157f642817c455e2ed7028e6ad31a8.gif');
-   background-repeat: no-repeat;
     background-color:#673ab7;
+   background-repeat: no-repeat;
+    
     font-family: 'Open Sans';
     background-size: cover;
   }
@@ -28,7 +29,7 @@ body{
   header{
     background-image: url('https://cdn.cinepop.com.br/2021/02/pokemon-list.jpg');
     background-size: cover;
-    height: 80px;
+     height: 80px;
      border-radius: 5px;
   }
   
@@ -41,13 +42,43 @@ body{
   }
   
   img {
-    border-radius: 100%;
+    border-radius: 50%;
     width:150px;
     height:150px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border: 8px solid white;
-    transform: translatey(-50%);
+    
+    
+    transform: translatey(-239%);
+    
+  }
+  .local{
+    transform: translatey(-29%);
+    background-color: transparent;
+    border: transparent;
+  }
+  
+   .loop{
+    
+    border-radius: 100%;
+    width:120px;
+    height:120px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border: 8px solid #00000038;
+    border-top-color: purple;
+    background-color:black;
+    margin-bottom:100px;
+    animation: spin 1s linear infinite;
+    
+    
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
     
   }
