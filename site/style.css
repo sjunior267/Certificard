@@ -14,7 +14,7 @@ body{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white opacity;
+    background-color:rgba(128, 128, 128, 0.527);
     padding:15px;
     border: 1px solid black;
     border-radius: 5px;
@@ -24,12 +24,14 @@ body{
   section h1 {
     font-size: 25px;
     text-align: center;
+    
   }
   
   header{
     background-image: url('https://cdn.cinepop.com.br/2021/02/pokemon-list.jpg');
     background-size: cover;
      height: 80px;
+     
      border-radius: 5px;
   }
   
@@ -75,7 +77,19 @@ body{
     
     
   }
+  a{
+    text-decoration: none;
+  }
+
+
+  li:hover {
+    margin-left: 20px;
+    font-size: 150%;  
+    color: #673ab7;
+  }
   
+
+
   @keyframes spin {
     to {
       transform: rotate(360deg);
